@@ -12,15 +12,15 @@
     tools:context="com.londonappbrewery.bitcointicker.MainActivity">
 
     <TextView
+        android:id="@+id/priceLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/label_default_text"
-        android:id="@+id/priceLabel"
-        android:textSize="45sp"
-        android:textStyle="bold"
-        android:textColor="@color/fontColour"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:text="@string/label_default_text"
+        android:textColor="@color/fontColour"
+        android:textSize="45sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="wrap_content"
